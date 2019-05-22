@@ -1,0 +1,19 @@
+.card-style {
+  height: 250px;
+  width: 250px;
+  border-radius: 4px;
+}
+
+.container {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-style {
+  background-image: linear-gradient(to bottom right,#ff9966, #ff5e62);
+  position: fixed !important;
+  bottom: 20px;
+  right: 20px;
+}

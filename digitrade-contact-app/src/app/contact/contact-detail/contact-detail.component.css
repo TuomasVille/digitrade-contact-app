@@ -1,0 +1,48 @@
+.cardStyle {
+  width: 400px;
+  height: 500px;
+  background-image: linear-gradient(to bottom right,#ff9966, #ff5e62);
+}
+
+.button-style {
+  background-image: linear-gradient(to bottom right,#ff9966, #ff5e62);
+  position: fixed !important;
+  bottom: 20px;
+  right: 20px;
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+  /*change color of label*/
+  display: none;
+  border-radius: 0;
+}
+
+::ng-deep.mat-form-field-underline {
+  /*change color of underline*/
+  display: none;
+}
+
+::ng-deep.mat-form-field-ripple {
+  /*change color of underline when focused*/
+  display: none;
+}
+
+mat-form-field input::placeholder {
+  color: rgba(255,255,255,0.6);
+}
+
+::ng-deep .mat-form-field .mat-form-field-flex{
+  background-color: rgba(255,255,255,0.2);
+}
+
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+  border-radius: 0 !important;
+  padding: 0.0em 0.75em 0 0.75em !important;
+}
+
+.create-text-style {
+  margin-bottom: 40px;
+  font-family: 'Pacifico', cursive;
+  font-size: 24px;
+  color: #FFFF;
+}

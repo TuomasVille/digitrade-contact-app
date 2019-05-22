@@ -1,0 +1,54 @@
+<div fxLayoutAlign="center center" style="height: 91%">
+<mat-card class="cardStyle">
+  <div fxLayoutAlign="center center" fxLayout="column" style="height: 100%; color: #FFFF">
+    <span class="create-text-style">Create</span>
+  <mat-form-field appearance="fill">
+    <label>
+      <input matInput [(ngModel)]="contact.firstName"
+      type="text"
+      required
+      placeholder="First name"
+      >
+    </label>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <label>
+      <input matInput [(ngModel)]="contact.lastName"
+             type="text"
+             required
+             placeholder="Last name">
+    </label>
+  </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <label>
+        <input matInput [(ngModel)]="contact.phone"
+               type="text"
+               required
+               placeholder="Phone number">
+      </label>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <label>
+        <input matInput [(ngModel)]="contact.street"
+               type="text"
+               required
+               placeholder="Street">
+      </label>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <label>
+        <input matInput [(ngModel)]="contact.city"
+               type="text"
+               required
+               placeholder="City">
+      </label>
+    </mat-form-field>
+  </div>
+
+</mat-card>
+</div>
+<button mat-fab class="button-style"><mat-icon>done</mat-icon></button>

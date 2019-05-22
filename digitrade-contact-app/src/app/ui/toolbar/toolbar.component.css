@@ -1,0 +1,9 @@
+.toolbar-color {
+  background-image: linear-gradient(to bottom right,#ff9966, #ff5e62);
+}
+
+.toolbar-text-color {
+  font-family: 'Pacifico', cursive;
+  font-size: 26px;
+  color: #FFFF;
+}

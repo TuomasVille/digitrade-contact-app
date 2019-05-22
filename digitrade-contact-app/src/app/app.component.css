@@ -1,0 +1,11 @@
+.sidenav-container {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #F7F7F7;
+}
+
+.sidenav {
+  width: 200px;
+}

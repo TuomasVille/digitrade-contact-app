@@ -1,0 +1,7 @@
+<div class="container" fxLayout.lt-sm="column">
+  <dtca-contact-list-item *ngFor="let contact of contacts"
+    [contact]="contact"
+  (selected)="onContactSelected($event)"></dtca-contact-list-item>
+  <mat-divider class="mat-divider"></mat-divider>
+</div>
+  <button mat-fab class="button-style"><mat-icon>add</mat-icon></button>

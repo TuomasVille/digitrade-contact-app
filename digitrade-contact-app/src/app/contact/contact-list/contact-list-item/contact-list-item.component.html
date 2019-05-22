@@ -1,0 +1,13 @@
+<mat-card class="cardSize" [class.mat-elevation-z4]="!isActive">
+  <div style="margin-top: 25%">
+    <div fxLayoutAlign="center">
+    <ngx-avatar (click)="onSelect(contact)"
+      name="{{contact.firstName}} {{contact.lastName}}">
+    </ngx-avatar>
+    </div>
+  <p>
+    <mat-card-title>{{contact.firstName}} {{contact.lastName}}</mat-card-title>
+    <mat-card-subtitle><mat-icon style="vertical-align: middle">phone</mat-icon>{{contact.phone}}</mat-card-subtitle>
+  </p>
+  </div>
+</mat-card>
